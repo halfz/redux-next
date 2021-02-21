@@ -1,0 +1,24 @@
+{
+  "name": "@nextunicorn/redux-next",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest --config=jest.config.json"
+  },
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "keywords": [],
+  "author": "HALFZ Inc",
+  "license": "MIT",
+  "dependencies": {
+    "redux": "^4.0.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.20",
+    "@types/node": "^10.17.54",
+    "jest": "^26.6.3",
+    "ts-jest": "^26.5.1",
+    "typescript": "^4.1.5"
+  }
+}
